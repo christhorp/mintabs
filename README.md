@@ -37,7 +37,8 @@ Call the plugin:
 <script> $('#tabs').mintabs(); </script>
 ```
 
-Options:
+Options
+=======
 
 hide: true/false
 
