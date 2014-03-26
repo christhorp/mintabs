@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Mintabs Demo</title>
+    </head>
+    <body>
+        
+        <div id="tabs">
+            
+            <ul>
+                <li>Link 1</li>
+                <li>Link 2</li>
+                <li>Link 3</li>
+                <li>Link 4</li>
+            </ul>
+            
+            <div>Content 1</div>
+            <div>Content 2</div>
+            <div>Content 3</div>
+            <div>Content 4</div>
+            
+        </div>
+        
+    </body>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
+    <script src="jquery.mintabs.js"></script>
+    
+    <script> $('#tabs').mintabs() </script>
+    
+</html>
