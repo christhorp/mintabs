@@ -27,7 +27,7 @@ HTML format:
   
   <div>Content 1</div>
   <div>Content 2</div>
-  <div>Content 3</div
+  <div>Content 3</div>
 
 </div>
 ```
