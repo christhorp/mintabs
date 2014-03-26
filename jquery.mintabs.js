@@ -1,8 +1,11 @@
  (function ( $ ) {
-        $.fn.mintabs = function(hide) {
+        $.fn.mintabs = function(options) {
             
             var tabs = $(this);
-            if(typeof(hide) === 'undefined') hide = true;
+            
+            var settings = $.extend({
+                hide: true
+            }, options );
             
             
             // Add data attributes to li items
@@ -47,7 +50,7 @@
             
             
             function hideContent(){
-                if(hide !== false){
+                if(settings.hide !== false){
                     tabs.find('> div.active').show();
                     tabs.find('> div').not('.active').hide();
                 }

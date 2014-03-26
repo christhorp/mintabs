@@ -37,10 +37,11 @@ Call the plugin:
 <script> $('#tabs').mintabs(); </script>
 ```
 
-Arguments:
+Options:
 
-hide: defaults to true
-example: $('#tabs').mintabs(false);
+hide: true/false
+
+example: $('#tabs').mintabs({hide: false});
 
 If set to false, it won't hide the content with javascript, allowing you to hide this using CSS instead.
 
