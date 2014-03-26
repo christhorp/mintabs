@@ -9,12 +9,14 @@ Directions
 
 Include jQuery, and the plugin:
 
+```html
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.js"></script>
 <script src="jquery.mintabs.js"></script>
-
+```
 
 HTML format:
 
+```html
 <div id="tabs">
 
   <ul>
@@ -28,10 +30,12 @@ HTML format:
   <div>Content 3</div
 
 </div>
+```
 
 Call the plugin:
-
+```html
 <script> $('#tabs').mintabs(); </script>
+```
 
 Arguments:
 
